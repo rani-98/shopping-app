@@ -1,12 +1,19 @@
+import { useParams } from "react-router-dom";
+import { useState } from "react";
 
-function productInfo(){
+function productInfo(props){
+    
+    const { product } = props;
+    const [product,setProduct]=useState();
+    const { product } = useParams();
+
     return(
         <>
         <h1>t-shirt</h1>
         <div>
-            <img src="https://adro.in/cdn/shop/files/1_754098ff-221c-4421-9464-0284e9e2a220.png?v=1709038231&width=480" alt="image no"></img>
-            <h1>t-shirts</h1>
-            <h3>$12</h3>
+            <img src={product.image} alt="shirt image"></img>
+            <h1>{product.name}</h1>
+            <h3>{product.rate}</h3>
             <span className="  ">S</span>
             <span>M</span>
             <span>L</span>

@@ -1,6 +1,10 @@
+import { Link } from "react-router-dom";
 import React from "react";
 
-function Card(){
+
+function Card(props){
+
+    
     return(
         <Link to={`/shopping/${props.product.id}`}>
         <div className="flex justify-between gap-3 w-50 h-50 shadow-lg shadow-red-500 rounded-lg">
