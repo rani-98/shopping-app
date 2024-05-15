@@ -2,7 +2,7 @@ import React from "react";
 
 function Card(){
     return(
-        <>
+        <Link to={`/shopping/${props.product.id}`}>
         <div className="flex justify-between gap-3 w-50 h-50 shadow-lg shadow-red-500 rounded-lg">
             <div className="rounded-lg">
             <img src="https://images.glowroad.com/faceview/ge/dh/bj/bd/imgs/pd/1628497452927_WhatsApp_Image_2021-08-06_at_1.24.04_PM__3_-xlgn400x400.jpeg?productId=P-5543479" alt="shirt "></img>
@@ -25,7 +25,7 @@ function Card(){
 
         </div>
 
-        </>
+        </Link>
     
     
     
