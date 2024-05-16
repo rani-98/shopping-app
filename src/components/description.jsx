@@ -25,8 +25,8 @@ function productInfo(props){
                 repudiandae nihil. Dolor debitis excepturi eligendi similique 
                 cumque suscipit iure nesciunt, ea exercitationem? </p>
 
-            <button>Add To Cart</button>
-            <button>Buy Now</button>
+            <button className="w-7 h-6 bg-yellow-400">Add To Cart</button>
+            <button className="w-7 h-6 bg-yellow-400">Buy Now</button>
         </div>
         </>
         

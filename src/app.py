@@ -12,21 +12,21 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 
 products = [
     {
-        
+        "id":1,
         "name" : "t-shirt1",
         'cost' : "$23",
         'image':"https://images.glowroad.com/faceview/ge/dh/bj/bd/imgs/pd/1628497452927_WhatsApp_Image_2021-08-06_at_1.24.04_PM__3_-xlgn400x400.jpeg?productId=P-5543479"
 
     },
     {
-        
+        "id":2,
         "name" : "t-shirt2",
         'cost' : "$23",
         'image':"https://images.glowroad.com/faceview/ge/dh/bj/bd/imgs/pd/1628497452927_WhatsApp_Image_2021-08-06_at_1.24.04_PM__3_-xlgn400x400.jpeg?productId=P-5543479"
 
     },
     {
-        
+        "id":3,
         "name" : "t-shirt3",
         'cost' : "$23",
         'image':"https://images.glowroad.com/faceview/ge/dh/bj/bd/imgs/pd/1628497452927_WhatsApp_Image_2021-08-06_at_1.24.04_PM__3_-xlgn400x400.jpeg?productId=P-5543479"
