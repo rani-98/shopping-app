@@ -13,7 +13,7 @@ function productInfo(props){
         <div>
             <img src={product.image} alt="shirt image"></img>
             <h1>{product.name}</h1>
-            <h3>{product.rate}</h3>
+            <h3>{product.price}</h3>
             <span className="  ">S</span>
             <span>M</span>
             <span>L</span>

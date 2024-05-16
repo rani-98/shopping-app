@@ -21,7 +21,6 @@ function Card(props){
 
 
 
-
             </div>
             
 

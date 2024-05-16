@@ -15,6 +15,8 @@ function App() {
       <div className="grid grid-cols-4 gap-4 p-3">
       <Card type={productType} changeProduct={setProductType}/>
       
+
+      <Card shopping={{id:"1", name: "blue shirt", price: "23.23",}} />
       </div>
       
     </>
