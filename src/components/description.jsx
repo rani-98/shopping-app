@@ -11,9 +11,9 @@ function productInfo(props){
         <>
         <h1>t-shirt</h1>
         <div>
-            <img src={product.image} alt="shirt image"></img>
-            <h1>{product.name}</h1>
-            <h3>{product.price}</h3>
+            <img src={props.product.image} alt="shirt image"></img>
+            <h1>{props.product.name}</h1>
+            <h3>{props.product.price}</h3>
             <span className="  ">S</span>
             <span>M</span>
             <span>L</span>
@@ -29,6 +29,7 @@ function productInfo(props){
             <button className="w-7 h-6 bg-yellow-400">Buy Now</button>
         </div>
         </>
+
         
     )
 }
