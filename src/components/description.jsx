@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
+import Counter from "./components/counter.jsx";
 
 function productInfo(props){
     
@@ -27,6 +28,7 @@ function productInfo(props){
 
             <button className="w-7 h-6 bg-yellow-400">Add To Cart</button>
             <button className="w-7 h-6 bg-yellow-400">Buy Now</button>
+            <Counter/>
         </div>
         </>
 

@@ -1,9 +1,10 @@
-import {Outlet} from "react-router-dom";
+
 
 
 function Cart(){
     return(
         <>
+        <Cart />
         <h1> Empty cart</h1>
         </>
     )
